@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="./images/LOGO.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <nav>
+
+        <div class="sidenav">
+            <img src="./images/LOGO.png" width="100" alt="">
+
+            <a href="./index.html">Home</a>
+            <a href="./contact.html">Contact Us</a>
+            <a href="./About.html">About Us</a>
+            <a href="./food.html">Foods</a>
+            <a href="./register.html">Register</a>
+            <a href="./login.html">Login</a>
+            <a href="#">Pets for Sale
+                <select name="" onchange="location = this.value;" id="">
+                    <option value=""></option>
+                    <option value="dog.html"> Dogs</option>
+                    <option value="cat.html">Cats</option>
+                </select>
+            </a>
+        </div>
+
+
+    </nav>
+    <form method="POST" action="index.html" class="box-2">
+        <img src="./images/LOGO.png" width="100" alt="">
+        <h1>Register</h1>
+        <input type="text" placeholder="Username" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Comfirm Password" required>
+        <p>Already a customer? Login <a href="./login.html">Here</a></p>
+
+        <button type="submit">Register</button>
+
+
+    </form>
+</body>
+
+</html>

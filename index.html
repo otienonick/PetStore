@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Store</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="./images/LOGO.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+
+        <div class="sidenav">
+            <img src="./images/LOGO.png" width="100" alt="">
+
+            <a href="./index.html">Home</a>
+            <a href="./contact.html">Contact Us</a>
+            <a href="./About.html">About Us</a>
+            <a href="./food.html">Foods</a>
+            <a href="./register.html">Register</a>
+            <a href="./login.html">Login</a>
+            <a href="#">Pets for Sale
+                <select name="" onchange="location = this.value;" id="">
+                    <option value=""></option>
+                    <option value="dog.html"> Dogs</option>
+                    <option value="cat.html">Cats</option>
+                </select>
+            </a>
+        </div>
+
+
+    </nav>
+    <div class="main">
+        <div class="search">
+            <input type="text" placeholder="What are you looking for...">
+            <button type="button">search</button>
+        </div>
+
+        <div class="pet_intro">
+            <header>
+                <h1>Welcome to <span>PETSTORE</span></h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Quisquam delectus illo tempore a! Necessitatibus sint hic molestiae fugit mollitia vel nihil
+                    incidunt,
+                    dolorem ratione natus dolore officiis laudantium doloremque alias modi,
+                    earum facere fuga rerum repudiandae provident assumenda sit?
+                    Dicta harum sint iste eligendi minima repellendus ullam odit debitis dolorum repellat vero hic,
+                    reiciendis tempora explicabo quibusdam possimus perferendis nemo dignissimos praesentium ab iure
+                    voluptatem?
+                    Odit exercitationem minus labore corrupti adipisci dignissimos, natus eaque, ad fugit, porro quos.
+                    Odit corrupti officia nisi nobis recusandae neque at aut, cumque doloremque suscipit fugiat, commodi
+                    voluptas,
+                    eum totam quia cupiditate tenetur iste a.</p>
+                <button type="submit" onclick="location.href = 'food.html'">Shop Now</button>
+            </header>
+            <div class="main-image">
+                <img src="./images/homepage-removebg-preview.png" height="400" alt="">
+            </div>
+        </div>
+        <div class="gallery">
+            <h2>New Arrivals</h2>
+        </div>
+        <div id="img-gallery" class="img-gallery">
+            <div class="supplies">
+                <a href="food.html">
+                    <img src="./images/dogs.jpg" alt="">
+                    Dogs</a>
+            </div>
+            <div class="supplies">
+                <a href="food.html">
+                    <img src="./images/cats.jpg" alt="">
+                    Cats</a>
+            </div>
+            <div class="supplies">
+                <a href="food.html">
+                    <img src="./images/birds.jpg" alt="">
+                    Birds</a>
+            </div>
+            <div class="supplies">
+                <a href="food.html">
+                    <img src="./images/fish.jpg" alt="">
+                    Aquatic</a>
+            </div>
+            <div class="supplies">
+                <a href="food.html">
+                    <img src="./images/rabbits.jpg" alt="">
+                    Rabbits</a>
+            </div>
+            <div class="supplies">
+                <a href="food.html">
+                    <img src="./images/smallpets.jpg" alt="">
+                    Small Pets</a>
+            </div>
+
+
+        </div>
+    </div>
+    <footer>
+        <span> &copy; 2022 PetStore. </span> <span>All rights reserved</span>
+    </footer>
+
+</body>
+
+</html>
